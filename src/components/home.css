@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container{
     max-width: none !important;
 }
@@ -15,7 +19,7 @@
 }
 
 .icon-banner{
-    background-color: rgb(99, 192, 106);
+    background-color: rgb(146, 130, 206);
     height: 170px;
     width: 170px;
     border-radius: 50%;
@@ -45,5 +49,13 @@
 .line{
     margin-top: 20px;
     border-top: 2px solid grey;
-    width: 30%;
+    width: 22%;
+}
+
+.purple-font{
+ color: rgb(117, 105, 160);   
+}
+
+.dog-img{
+    height: 200px;
 }
