@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
+
 export default class home extends Component {
   render() {
     return (
-      <div className="home">
-        { this.props.children }
+      <div>Este es home
+        <button>Ir al Finder</button>
       </div>
+
     )
   }
 }
