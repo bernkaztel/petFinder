@@ -18,8 +18,8 @@ export default class home extends Component {
           <br />
           <br/>
         </Container>
-        <Container class>
-          <Row clasName="margin-top-5">
+        <Container>
+          <Row>
             <Col>
               <div className="icon-banner mt-4">
                 <i className="fas fa-check-circle d-block mx-auto icon" />
