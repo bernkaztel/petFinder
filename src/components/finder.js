@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from './card';
-import {Button, ButtonGroup} from 'reactstrap';
+import {Button, ButtonGroup, Row, Col } from 'reactstrap';
 
 
 export default class finder extends Component {
@@ -8,10 +8,13 @@ export default class finder extends Component {
     return (
       <div>
       <Card></Card>
-      <ButtonGroup >
-        <Button className="d-block mx-auto">me gusta</Button>
-        <Button className="d-block mx-auto">me gusta</Button>
-      </ButtonGroup>
+      <Row>
+      <Col sm="0" className="d-block mx-auto">
+        <Button color="success" size="lg"><i class="far fa-heart"></i></Button>
+        <Button color="success" size="lg"><i class="fas fa-times"></i></Button>
+      </Col>
+      </Row>
+
       </div>
     )
   }
