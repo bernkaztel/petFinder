@@ -14,6 +14,7 @@ export default class finder extends Component {
         <Button color="success" size="lg"><i class="fas fa-times"></i></Button>
       </Col>
       </Row>
+
       </div>
     )
   }
