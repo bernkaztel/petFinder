@@ -31,7 +31,7 @@ export default class navbar extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/"><Link to="/">PetFinder</Link></NavbarBrand>
+          <NavbarBrand href="/"><Link to="/"><img src="./images/logo.png" height="30px" /></Link></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
